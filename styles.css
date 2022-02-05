@@ -22,7 +22,7 @@ h1.centered, .space_image {
   }
 
 img {
-    border: 5pt black solid;
+    border: 2pt black solid;
     width: 850px;
     height: 450px;
 }
@@ -38,10 +38,11 @@ div.secondContainer {
     /* color: rgb(26, 22, 22);
     border: 10px rgb(63, 55, 55); */
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-direction: column;
     align-items: flex-start;
     width: 270px;
+    padding: 20px;
 }
 
 /* div {
@@ -60,8 +61,9 @@ span {
     display: flex;
     justify-content: space-evenly;
     background-color: lightgrey;
-    padding: 10pt;
+    /* padding: 10pt; */
     height: 324px;
+    width: 850px;
 }
 
 ul {
@@ -74,7 +76,12 @@ li {
     width: 270px;
 }
 
-/* input {
+.contactSubmit {
     background-color: rgb(32, 29, 29);
     color: white;
+}
+/* .box_2 {
+    width: 270px;
+    margin: 20px;
+    padding-left: 20px;
 } */
